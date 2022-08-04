@@ -14,6 +14,10 @@ test('Generates buffs', () => {
       id: 19,
       name: 'SeekerMissileTimeout',
     },
+    {
+      id: 304,
+      name: '',
+    },
   ]
 
   expect(generateBuffs(buffs)).toEqual([

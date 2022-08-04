@@ -32,7 +32,12 @@ exports.generateUpgrades = (src) => {
   return _.uniqBy(upgrades, 'name')
 }
 
-exports.generateBuffs = (src) => generateEnum(src)
+exports.generateBuffs = (src) => {
+  // NOTE (alkurbatov): Since 5.0.10 some buffs have empty name.
+  const transformed = src.filter((it) => it.name)
+
+  return generateEnum(transformed)
+}
 
 exports.generateEffects = (src) => {
   const transformed = src.map(({ id, name, friendlyName }) => ({ id, name: friendlyName || name }))
