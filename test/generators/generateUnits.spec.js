@@ -32,3 +32,22 @@ test('Generates list of units', () => {
     { id: 100, name: 'ZERG_LAIR' },
   ])
 })
+
+test('Ignores dummies', () => {
+  const units = [
+    {
+      id: 1,
+      name: 'System_Snapshot_Dummy',
+    },
+    {
+      id: 153,
+      name: 'MarineACGluescreenDummy',
+    },
+    {
+      id: 154,
+      name: 'FirebatACGluescreenDummy',
+    },
+  ]
+
+  expect(generateUnits(units)).toEqual([])
+})

@@ -51,3 +51,22 @@ test('Only unique items kept in the list', () => {
     { id: 3674, index: undefined, name: 'ATTACK' },
   ])
 })
+
+test('Ignores dummies', () => {
+  const abilities = [
+    {
+      id: 4632,
+      name: 'DummyAbil201',
+      buttonname: '',
+      index: 1,
+    },
+    {
+      id: 3003,
+      name: 'SpiderMineUnburrowRangeDummy',
+      buttonname: '',
+      index: 0,
+    },
+  ]
+
+  expect(generateAbilities(abilities)).toEqual([{ id: 3674, index: undefined, name: 'ATTACK' }])
+})

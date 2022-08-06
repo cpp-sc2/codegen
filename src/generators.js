@@ -1,4 +1,5 @@
 const _ = require('lodash')
+const filters = require('./filters')
 const transform = require('./transform')
 
 const generateEnum = (src) => {
@@ -7,14 +8,17 @@ const generateEnum = (src) => {
 }
 
 exports.generateUnits = (src) => {
-  const transformed = src.map(transform.renameForCompatibility)
+  const transformed = src.map(transform.renameForCompatibility).filter((it) => !filters.isDummy(it))
   return generateEnum(transformed)
 }
 
 exports.generateAbilities = (src) => {
-  const transformed = src.filter((it) => it.buttonname || it.remapid).map(transform.pickAbilityName)
+  const transformed = src
+    .filter((it) => it.buttonname || it.remapid)
+    .filter((it) => !filters.isDummy(it))
+    .map(transform.pickAbilityName)
 
-  // NOTE (alkurbatov): Another one ability kept for backward compatibility.
+  // NOTE (alkurbatov): Kept for backward compatibility.
   transformed.push({ id: 3674, name: 'ATTACK' })
 
   const generated = generateEnum(transformed)
@@ -34,7 +38,7 @@ exports.generateUpgrades = (src) => {
 
 exports.generateBuffs = (src) => {
   // NOTE (alkurbatov): Since 5.0.10 some buffs have empty name.
-  const transformed = src.filter((it) => it.name)
+  const transformed = src.filter((it) => it.name).filter((it) => !filters.isDummy(it))
 
   return generateEnum(transformed)
 }

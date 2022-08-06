@@ -14,10 +14,6 @@ test('Generates buffs', () => {
       id: 19,
       name: 'SeekerMissileTimeout',
     },
-    {
-      id: 304,
-      name: '',
-    },
   ]
 
   expect(generateBuffs(buffs)).toEqual([
@@ -25,4 +21,26 @@ test('Generates buffs', () => {
     { id: 18, name: 'GUARDIANSHIELD' },
     { id: 19, name: 'SEEKERMISSILETIMEOUT' },
   ])
+})
+
+test('Ignores buffs with empty names', () => {
+  const buffs = [
+    {
+      id: 304,
+      name: '',
+    },
+  ]
+
+  expect(generateBuffs(buffs)).toEqual([])
+})
+
+test('Ignores dummies', () => {
+  const buffs = [
+    {
+      id: 302,
+      name: 'DummyBuff004',
+    },
+  ]
+
+  expect(generateBuffs(buffs)).toEqual([])
 })
