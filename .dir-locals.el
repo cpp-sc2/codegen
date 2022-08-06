@@ -1,1 +1,1 @@
-((js2-mode . ((eval . (prettier-mode t)))))
+((js-mode . ((eval . (prettier-mode t)))))
