@@ -8,8 +8,8 @@
 Code generation utility for Starcraft II. Produces list of type IDs taken from stableid.json for cpp-sc2 API.
 
 ## Requirements
-* OS X (feel free to send a PR to support other platforms). 
-* nodejs >= 10
+* OS X (feel free to send a PR to support other platforms).
+* nodejs >= 14
 * Starcraft II installation.
 
 ## Usage
@@ -28,7 +28,6 @@ $ npm test
 ```
 
 ## License
-Copyright (c) 2020
+Copyright (c) 2020-2022
 
 Licensed under the [GPL 3.0 license](LICENSE).
-
