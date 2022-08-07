@@ -57976,7 +57976,7 @@ namespace sc2 {
 ]
 `;
 
-exports[`Generates c++ code for Sc2 v5.0.3 1`] = `
+exports[`Generates c++ code for Sc2 v5.0.5 1`] = `
 Array [
   "/*! \\\\file sc2_typeenums.h
 \\\\brief A list of enums provided for your convenience.
@@ -65337,7 +65337,7 @@ const char* EffectIDToName(EffectID id);
 ]
 `;
 
-exports[`Generates c++ code for Sc2 v5.0.3 2`] = `
+exports[`Generates c++ code for Sc2 v5.0.5 2`] = `
 Array [
   "/*
 Helper converter functions provided for your convenience.
