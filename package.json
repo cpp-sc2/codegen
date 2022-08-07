@@ -12,7 +12,8 @@
   "main": "./src/index.js",
   "scripts": {
     "clean": "rimraf ./dist",
-    "start": "npm run clean && mkdir dist && node src/index.js",
+    "generate": "node src/index.js",
+    "start": "npm run clean && mkdir dist && npm run generate",
     "lint": "eslint ./src ./test",
     "test": "jest",
     "test:coverage": "jest --coverage"
