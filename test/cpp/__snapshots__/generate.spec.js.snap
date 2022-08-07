@@ -3484,6 +3484,8 @@ typedef SC2Type<EFFECT_ID> EffectID;
 ",
   "    ZERG_OVERSEERSIEGEMODE = 1912,
 ",
+  "    ZERG_PARASITICBOMBDUMMY = 824,
+",
   "    ZERG_QUEEN = 126,
 ",
   "    ZERG_QUEENBURROWED = 125,
@@ -10659,6 +10661,8 @@ namespace sc2 {
   "        case UNIT_TYPEID::ZERG_OVERSEER: return \\"ZERG_OVERSEER\\";
 ",
   "        case UNIT_TYPEID::ZERG_OVERSEERSIEGEMODE: return \\"ZERG_OVERSEERSIEGEMODE\\";
+",
+  "        case UNIT_TYPEID::ZERG_PARASITICBOMBDUMMY: return \\"ZERG_PARASITICBOMBDUMMY\\";
 ",
   "        case UNIT_TYPEID::ZERG_QUEEN: return \\"ZERG_QUEEN\\";
 ",
@@ -17891,6 +17895,8 @@ typedef SC2Type<EFFECT_ID> EffectID;
 ",
   "    ZERG_OVERSEERSIEGEMODE = 1912,
 ",
+  "    ZERG_PARASITICBOMBDUMMY = 824,
+",
   "    ZERG_QUEEN = 126,
 ",
   "    ZERG_QUEENBURROWED = 125,
@@ -25104,6 +25110,8 @@ namespace sc2 {
   "        case UNIT_TYPEID::ZERG_OVERSEER: return \\"ZERG_OVERSEER\\";
 ",
   "        case UNIT_TYPEID::ZERG_OVERSEERSIEGEMODE: return \\"ZERG_OVERSEERSIEGEMODE\\";
+",
+  "        case UNIT_TYPEID::ZERG_PARASITICBOMBDUMMY: return \\"ZERG_PARASITICBOMBDUMMY\\";
 ",
   "        case UNIT_TYPEID::ZERG_QUEEN: return \\"ZERG_QUEEN\\";
 ",
@@ -32359,6 +32367,8 @@ typedef SC2Type<EFFECT_ID> EffectID;
   "    ZERG_OVERSEER = 129,
 ",
   "    ZERG_OVERSEERSIEGEMODE = 1912,
+",
+  "    ZERG_PARASITICBOMBDUMMY = 824,
 ",
   "    ZERG_QUEEN = 126,
 ",
@@ -39631,6 +39641,8 @@ namespace sc2 {
   "        case UNIT_TYPEID::ZERG_OVERSEER: return \\"ZERG_OVERSEER\\";
 ",
   "        case UNIT_TYPEID::ZERG_OVERSEERSIEGEMODE: return \\"ZERG_OVERSEERSIEGEMODE\\";
+",
+  "        case UNIT_TYPEID::ZERG_PARASITICBOMBDUMMY: return \\"ZERG_PARASITICBOMBDUMMY\\";
 ",
   "        case UNIT_TYPEID::ZERG_QUEEN: return \\"ZERG_QUEEN\\";
 ",
@@ -46927,6 +46939,8 @@ typedef SC2Type<EFFECT_ID> EffectID;
 ",
   "    ZERG_OVERSEERSIEGEMODE = 1912,
 ",
+  "    ZERG_PARASITICBOMBDUMMY = 824,
+",
   "    ZERG_QUEEN = 126,
 ",
   "    ZERG_QUEENBURROWED = 125,
@@ -54198,6 +54212,8 @@ namespace sc2 {
   "        case UNIT_TYPEID::ZERG_OVERSEER: return \\"ZERG_OVERSEER\\";
 ",
   "        case UNIT_TYPEID::ZERG_OVERSEERSIEGEMODE: return \\"ZERG_OVERSEERSIEGEMODE\\";
+",
+  "        case UNIT_TYPEID::ZERG_PARASITICBOMBDUMMY: return \\"ZERG_PARASITICBOMBDUMMY\\";
 ",
   "        case UNIT_TYPEID::ZERG_QUEEN: return \\"ZERG_QUEEN\\";
 ",
@@ -61521,6 +61537,8 @@ typedef SC2Type<EFFECT_ID> EffectID;
   "    ZERG_OVERSEER = 129,
 ",
   "    ZERG_OVERSEERSIEGEMODE = 1912,
+",
+  "    ZERG_PARASITICBOMBDUMMY = 824,
 ",
   "    ZERG_QUEEN = 126,
 ",
@@ -68865,6 +68883,8 @@ namespace sc2 {
   "        case UNIT_TYPEID::ZERG_OVERSEER: return \\"ZERG_OVERSEER\\";
 ",
   "        case UNIT_TYPEID::ZERG_OVERSEERSIEGEMODE: return \\"ZERG_OVERSEERSIEGEMODE\\";
+",
+  "        case UNIT_TYPEID::ZERG_PARASITICBOMBDUMMY: return \\"ZERG_PARASITICBOMBDUMMY\\";
 ",
   "        case UNIT_TYPEID::ZERG_QUEEN: return \\"ZERG_QUEEN\\";
 ",
@@ -76261,6 +76281,8 @@ typedef SC2Type<EFFECT_ID> EffectID;
 ",
   "    ZERG_OVERSEERSIEGEMODE = 1912,
 ",
+  "    ZERG_PARASITICBOMBDUMMY = 824,
+",
   "    ZERG_QUEEN = 126,
 ",
   "    ZERG_QUEENBURROWED = 125,
@@ -83638,6 +83660,8 @@ namespace sc2 {
   "        case UNIT_TYPEID::ZERG_OVERSEER: return \\"ZERG_OVERSEER\\";
 ",
   "        case UNIT_TYPEID::ZERG_OVERSEERSIEGEMODE: return \\"ZERG_OVERSEERSIEGEMODE\\";
+",
+  "        case UNIT_TYPEID::ZERG_PARASITICBOMBDUMMY: return \\"ZERG_PARASITICBOMBDUMMY\\";
 ",
   "        case UNIT_TYPEID::ZERG_QUEEN: return \\"ZERG_QUEEN\\";
 ",
