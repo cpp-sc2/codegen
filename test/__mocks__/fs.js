@@ -6,7 +6,7 @@ fs.generatedHeader = []
 fs.generatedCPP = []
 
 fs.openSync = function openSync(src) {
-  if (src.endsWith('.cc')) {
+  if (src.endsWith('.cpp')) {
     fs.generatedCPP = []
     marker = fs.generatedCPP
     return

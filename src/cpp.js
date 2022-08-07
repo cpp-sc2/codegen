@@ -85,7 +85,7 @@ const char* EffectIDToName(EffectID id);
 }
 
 function dumpCPP({ units, abilities, upgrades, buffs, effects }) {
-  const dst = fs.openSync('./dist/sc2_typeenums.cc', 'w')
+  const dst = fs.openSync('./dist/sc2_typeenums.cpp', 'w')
 
   fs.appendFileSync(
     dst,
