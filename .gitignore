@@ -6,3 +6,6 @@ dist/
 
 # Testing coverage
 coverage
+
+# OS X things
+.DS_Store
