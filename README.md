@@ -28,6 +28,6 @@ $ npm test
 ```
 
 ## License
-Copyright (c) 2020-2022
+Copyright (c) 2020-2023
 
 Licensed under the [GPL 3.0 license](LICENSE).
