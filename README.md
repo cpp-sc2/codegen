@@ -25,7 +25,7 @@ $ npm install
 $ npm start "/Users/alkurbatov/Library/Application Support/Blizzard/StarCraft II/stableid.json"
 
 # Generate the code using one of saved ID files.
-$ npm start ./assets/4.10.2-stableid.json
+$ npm start ./assets/4.10.4-stableid.json
 
 # Run tests
 $ npm test
