@@ -33,6 +33,6 @@ $ npm test
 
 ## License
 
-Copyright (c) 2020-2024
+Copyright (c) 2020-2025
 
 Licensed under the [GPL 3.0 license](LICENSE).
