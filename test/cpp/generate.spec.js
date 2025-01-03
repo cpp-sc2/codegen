@@ -10,6 +10,7 @@ const stableIDs4120 = require('../../assets/4.12.0-stableid.json')
 const stableIDs5005 = require('../../assets/5.0.5-stableid.json')
 const stableIDs5010 = require('../../assets/5.0.10-stableid.json')
 const stableIDs5012 = require('../../assets/5.0.12-stableid.json')
+const stableIDs5014 = require('../../assets/5.0.14-stableid.json')
 
 test('Generates c++ code for Sc2 v4.8.3', () => {
   generate(stableIDs4083)
@@ -49,6 +50,12 @@ test('Generates c++ code for Sc2 v5.0.10', () => {
 
 test('Generates c++ code for Sc2 v5.0.12', () => {
   generate(stableIDs5012)
+  expect(fs.generatedHeader).toMatchSnapshot()
+  expect(fs.generatedCPP).toMatchSnapshot()
+})
+
+test('Generates c++ code for Sc2 v5.0.14', () => {
+  generate(stableIDs5014)
   expect(fs.generatedHeader).toMatchSnapshot()
   expect(fs.generatedCPP).toMatchSnapshot()
 })
