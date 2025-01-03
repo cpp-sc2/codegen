@@ -12,7 +12,7 @@ Code generation utility for StarCraft II. Produces list of type IDs taken from
 ## Requirements
 
 * OS X (feel free to send a PR to support other platforms).
-* nodejs >= 14
+* nodejs >= 23.5.
 * Starcraft II installation.
 
 ## Usage
